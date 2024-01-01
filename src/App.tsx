@@ -1,8 +1,9 @@
-import React from 'react';
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Topbar } from './components/topbar';
 import Introduction from './pages/introduction'; 
 import Portfolio from './pages/Portfolio'; 
+import Skills from './pages/skills';
 
 function App() {
   return (
@@ -41,9 +42,14 @@ function App() {
               />
             }
           />
+          <Route
+            path="/skills"
+            element={<Skills />}
+            />
         </Routes>
       </div>
     </Router>
+            
   );
 }
 
