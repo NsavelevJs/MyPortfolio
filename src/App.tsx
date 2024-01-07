@@ -22,19 +22,43 @@ function App() {
               <Portfolio
                 projects={[
                   {
-                    title: 'Project 1',
-                    description: 'Description of Project 1.',
-                    imageUrl: 'project1.jpg',
-                    link: 'project1 link',
-                    git: 'project1 git',
+                    title: 'Duck Hunt',
+                    description: 'Browser Duck Hunt',
+                    imageUrl: 'https://i.pinimg.com/originals/00/79/6c/00796c794bd05ba60af2f09e96e7246a.gif',
+                    link: 'http://nicks-duck-hunt.surge.sh/',
+                    git: 'https://github.com/NsavelevJs/duck-hunt',
                     
                   },
                   {
-                    title: 'Project 2',
-                    description: 'Description of Project 2.',
-                    imageUrl: 'project2.jpg',
-                    link: 'project2 link',
-                    git: 'project2 git',
+                    title: 'Pick-up',
+                    description: 'Pick-up where you left off with this chat app',
+                    imageUrl: 'https://i.imgur.com/pRuBC6O.png',
+                    link: 'https://pick-up.surge.sh',
+                    git: 'https://github.com/NsavelevJs/Pick-up',
+                   
+                  },
+                  {
+                    title: 'Pick-up',
+                    description: 'Pick-up where you left off with this chat app',
+                    imageUrl: 'https://i.imgur.com/pRuBC6O.png',
+                    link: 'https://pick-up.surge.sh',
+                    git: 'https://github.com/NsavelevJs/Pick-up',
+                   
+                  },
+                  {
+                    title: 'Pick-up',
+                    description: 'Pick-up where you left off with this chat app',
+                    imageUrl: 'https://i.imgur.com/pRuBC6O.png',
+                    link: 'https://pick-up.surge.sh',
+                    git: 'https://github.com/NsavelevJs/Pick-up',
+                   
+                  },
+                  {
+                    title: 'Pick-up',
+                    description: 'Pick-up where you left off with this chat app',
+                    imageUrl: 'https://i.imgur.com/pRuBC6O.png',
+                    link: 'https://pick-up.surge.sh',
+                    git: 'https://github.com/NsavelevJs/Pick-up',
                    
                   },
                  

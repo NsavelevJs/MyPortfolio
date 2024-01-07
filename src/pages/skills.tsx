@@ -1,8 +1,31 @@
-
-
 import React from 'react';
+const skillsData = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Node',
+    'npm',
+    'Git/GitHub',
+    'VSCode',
+    'Python',
+    'Next.js',
+    'TypeScript',
+    'Vite',
+    'Tailwind CSS',
+    'Cypress',
+    'Micro-frontends',
+    'Webpack',
+    'ContentSquare',
+    'Elasticsearch',
+    'Agile',
+    'PostgreSQL',
+    'Jira'
+];
+
 
 const Skills = () => {
+
     return (
         <section id="about" className="about m-5 mt-12 bg-white border border-gray-200 rounded-lg shadow overflow-hidden">
             <div className="main-container p-5">
@@ -29,69 +52,14 @@ const Skills = () => {
                     <div>
                         <h3 className="text-xl mb-3 text-gray-500">My Skills</h3>
                         <ul className="flex flex-wrap">
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                HTML
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                CSS
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                JAVASCRIPT
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                REACT
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                NODE
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                NPM
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                GIT/GITHUB
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                VSCODE
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                PYTHON
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                NEXTJS
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                TYPESCRIPT
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                VITE
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                TAILWINDCSS
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                CYPRESS
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                MICRO-FRONTENDS
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                WEBPACK
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                CONTENTSQUARE
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                ELASTICSEARCH
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                AGILE
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                POSTGRESQL
-                            </li>
-                            <li className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold">
-                                JIRA
-                            </li>
+                            {skillsData.map((skill, index) => (
+                                <li
+                                    key={index}
+                                    className="text-xs md:text-sm px-4 py-3 mr-4 mb-2 bg-gray-300 text-gray-600 rounded font-semibold"
+                                >
+                                    {skill}
+                                </li>
+                            ))}
                         </ul>
                     </div>
                 </div>
