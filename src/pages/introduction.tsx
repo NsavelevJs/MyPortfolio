@@ -3,7 +3,7 @@ function Introduction() {
     return (
         <div className="space-y-5 text-center gap-5">
             <h1 className="lg:text-4xl text-2xl font-bold">
-                Nikta Savelev
+                Nikita Savelev
             </h1>
             <p className="max-w-lg text-sm leading-6">
                 I'm a Full Stack Developer

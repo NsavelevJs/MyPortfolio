@@ -14,7 +14,7 @@ interface PortfolioProps {
 
 function Portfolio({ projects }: PortfolioProps) {
   return (
-    <div>
+    <div className='mt-12'>
       <h1 className="lg:text-4xl text-2xl font-bold mb-4">My Portfolio</h1>
       <ProjectPortfolio projects={projects} />
     </div>
